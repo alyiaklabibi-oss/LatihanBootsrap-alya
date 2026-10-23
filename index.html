@@ -33,8 +33,10 @@
                     <a class="nav-link active" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#tentang">Tentang Saya</a>
+                    <a class="nav-link" href="#about">about me</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#data">Data Diri</a>
                 <li class="nav-item">
                     <a class="nav-link" href="#kontak">Kontak</a>
                 </li>
@@ -80,11 +82,9 @@
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <img src="coding3.jpg"
+            <img src="coding2.jpg"
                 class="d-block w-100" alt="Foto pertama">
             <div class="carousel-caption">
-                <h5>Profil Saya</h5>
-                <p>Kenali saya lebih dekat.</p>
             </div>
         </div>
 
@@ -92,8 +92,6 @@
             <img src="produk.jpeg"
                 class="d-block w-100" alt="Foto kedua">
             <div class="carousel-caption">
-                <h5>Kegiatan Saya</h5>
-                <p>Hal-hal yang saya sukai.</p>
             </div>
         </div>
 
@@ -101,8 +99,6 @@
             <img src="akulagi.webp"
                 class="d-block w-100" alt="Foto ketiga">
             <div class="carousel-caption">
-                <h5>Cita-Cita Saya</h5>
-                <p>Langkah menuju masa depan.</p>
             </div>
         </div>
 
@@ -161,7 +157,7 @@ senang bisa memperkenalkan diri melalui website ini. Terima kasih!
         <!-- Card 2: Pendidikan -->
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card h-100 shadow-sm">
-                <img src="coding2.jpg" class="card-img-top"
+                <img src="pendidikan.png" class="card-img-top"
                      alt="Pendidikan">
                 <div class="card-body">
                     <h5 class="card-title">Pendidikan</h5>
@@ -188,13 +184,12 @@ senang bisa memperkenalkan diri melalui website ini. Terima kasih!
                     <p class="card-text">
                         Saya suka bermain game untuk mengisi waktu luang.
                     </p>
-                    <a href="https://chatgpt.com/share/6adb0951-2794-83ec-88f2-523e6cf4466a?ogimg=plain"
+                </div><a href="https://chatgpt.com/share/6adb0951-2794-83ec-88f2-523e6cf4466a?ogimg=plain"
    target="_blank"
    rel="noopener noreferrer"
    class="btn btn-primary">
     Pesan
 </a>
-                </div>
             </div>
         </div>
 
@@ -208,13 +203,12 @@ senang bisa memperkenalkan diri melalui website ini. Terima kasih!
                     <p class="card-text">
                         Saya tertarik mempelajari teknologi dan coding.
                     </p>
-                    <a href="https://chatgpt.com/share/6adb0951-2794-83ec-88f2-523e6cf4466a?ogimg=plain"
+                </div><a href="https://chatgpt.com/share/6adb0951-2794-83ec-88f2-523e6cf4466a?ogimg=plain"
    target="_blank"
    rel="noopener noreferrer"
    class="btn btn-primary">
     Pesan
 </a>
-                </div>
             </div>
         </div>
 
@@ -248,13 +242,12 @@ senang bisa memperkenalkan diri melalui website ini. Terima kasih!
                     <p class="card-text">
                         Saya ingin meraih cita-cita dan membanggakan orang tua.
                     </p>
-                    <a href="https://chatgpt.com/share/6adb0951-2794-83ec-88f2-523e6cf4466a?ogimg=plain"
+                </div><a href="https://chatgpt.com/share/6adb0951-2794-83ec-88f2-523e6cf4466a?ogimg=plain"
    target="_blank"
    rel="noopener noreferrer"
    class="btn btn-primary">
     Pesan
 </a>
-                </div>
             </div>
         </div>
 
@@ -297,9 +290,120 @@ senang bisa memperkenalkan diri melalui website ini. Terima kasih!
 </div>
 <!-- Akhir Modal Informasi Card -->
 
+    <!-- Form Data Diri -->
+<section id="data-diri" class="container py-5">
+    <h2 class="text-center fw-bold mb-3">Form Data Diri</h2>
+    <p class="text-center text-muted mb-4">
+        Silakan isi informasi tentang diri kamu.
+    </p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+
+                    <form id="formDataDiri">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">
+                                Nama Lengkap
+                            </label>
+                            <input type="text" class="form-control"
+                                id="nama" placeholder="Masukkan nama"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="kelas" class="form-label">
+                                Kelas
+                            </label>
+                            <input type="text" class="form-control"
+                                id="kelas" placeholder="Contoh: XI RPL"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="hobi" class="form-label">
+                                Hobi
+                            </label>
+                            <input type="text" class="form-control"
+                                id="hobi" placeholder="Masukkan hobi"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="citaCita" class="form-label">
+                                Cita-Cita
+                            </label>
+                            <input type="text" class="form-control"
+                                id="citaCita"
+                                placeholder="Masukkan cita-cita"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="deskripsi" class="form-label">
+                                Tentang Saya
+                            </label>
+                            <textarea class="form-control"
+                                id="deskripsi" rows="3"
+                                placeholder="Ceritakan tentang diri kamu"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+                            Simpan Data
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir Form Data Diri -->
+
+
+<!-- Modal Konfirmasi -->
+<div class="modal fade" id="modalPesan" tabindex="-1"
+    aria-labelledby="judulModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="judulModal">
+                    Konfirmasi Data Diri
+                </h5>
+
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Tutup"></button>
+            </div>
+
+            <div class="modal-body" id="isiModal">
+                Apakah kamu yakin ingin menyimpan data diri?
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+                    Batal
+                </button>
+
+                <button type="button" class="btn btn-primary"
+                    id="tombolKonfirmasi">
+                    Ya, Simpan
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Akhir Modal Konfirmasi -->
 
 <!-- JavaScript Form dan Modal -->
 <script>
+    const form = document.getElementById("formDataDiri");
     const modalElement = document.getElementById("modalPesan");
     const modal = new bootstrap.Modal(modalElement);
     const isiModal = document.getElementById("isiModal");
